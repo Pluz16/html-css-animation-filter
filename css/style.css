@@ -110,3 +110,11 @@
     height: 20px;
 }
 
+/* ANIMAZIONI */
+
+.ex-1-square {
+    transition: 2s;
+}
+.ex-1-square:hover {
+    background: red;
+}
