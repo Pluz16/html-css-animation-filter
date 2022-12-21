@@ -149,3 +149,20 @@
 .ex-5-square:active {
     transform: scale(.5);
 }
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: grayscale(.6) sepia(.5);
+}
+.ex-8-img {
+    transition: 2s;
+}
+.ex-8-img:hover {
+    filter: grayscale(.6) sepia(.5);
+    border-radius: 20px;
+}
